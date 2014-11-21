@@ -33,6 +33,12 @@ def mult(a, b):
 def div(a, b):
     return a / b
 
+#Modulus function
+#a is first number
+#b is number to divide by
+def modulus(a, b):
+	return a % b
+
 
 # -------------------------------------------------------- #
 
@@ -67,6 +73,8 @@ while (True):
             print "Product: ", mult(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
+		elif (op == "%"):
+			print "Modulus: ", modulus(a, b)
         else:
             print "Invalid operation..."
 
